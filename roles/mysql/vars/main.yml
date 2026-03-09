@@ -1,1 +1,1 @@
-#MYSQL_ROOT_PASSWORD: RoboShop@1
+#we should not store passwords in github so check parameter store
