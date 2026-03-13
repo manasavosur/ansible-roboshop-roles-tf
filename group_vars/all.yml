@@ -1,11 +1,11 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-"{{environment}}".chotu.online
-CATALOGUE_HOST: catalogue-"{{environment}}".chotu.online
-REDIS_HOST: redis-"{{environment}}".chotu.online
-USER_HOST: user-"{{environment}}".chotu.online
-CART_HOST: cart-"{{environment}}".chotu.online
-MYSQL_HOST: mysql-"{{environment}}".chotu.online
-SHIPPING_HOST: shipping-"{{environment}}".chotu.online
-RABBITMQ_HOST: rabbitmq-"{{environment}}".chotu.online
-PAYMENT_HOST: payment-"{{environment}}".chotu.online
+MONGODB_HOST: mongodb-"{{ env }}".chotu.online
+CATALOGUE_HOST: catalogue-"{{ env }}".chotu.online
+REDIS_HOST: redis-"{{ env }}".chotu.online
+USER_HOST: user-"{{ env }}".chotu.online
+CART_HOST: cart-"{{ env }}".chotu.online
+MYSQL_HOST: mysql-"{{ env }}".chotu.online
+SHIPPING_HOST: shipping-"{{ env }}".chotu.online
+RABBITMQ_HOST: rabbitmq-"{{ env }}".chotu.online
+PAYMENT_HOST: payment-"{{ env }}".chotu.online
